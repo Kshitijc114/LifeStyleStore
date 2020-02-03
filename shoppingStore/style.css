@@ -1,0 +1,160 @@
+
+body{
+    overflow-y: scroll;
+    min-height: 100%;
+    font-family: serif;
+}
+
+#banner_image{
+    padding-top: 150px;
+    padding-bottom: 200px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(bootstrap/img/intro-bg_1.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#myNavbar{
+    font-size: 18px;
+}
+
+.jumbotron{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-color: lightgray;
+    text-align: center;
+}
+#jumbo{
+    margin-top: 100px;
+    margin-bottom: 300px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: lightgray;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.navbar-brand{
+    font-size: 20px;
+}
+
+.row{
+    display: inline-block;
+}
+
+@media(min-width: 320px){.container{
+                            width: 320px;
+                         }}
+@media(min-width: 481px){.container{
+                            width: 481px;
+                         }}
+@media(min-width: 641px){.container{
+                            width: 641px;
+                         }}                      
+@media(min-width: 961px){.container{
+                            width: 961px;
+                         }}
+@media(min-width: 1000px){.container{
+                            width: 1000px;
+
+                          }}
+@media(max-width: 641px){
+    
+    .thumbnail{
+        width: 100%;
+    }
+    #banner_image{
+        width: 100%;
+    }
+    #banner_content{
+        width: 100%;
+    }
+    #thumbnail{
+        width: 100%
+    }
+}
+@media(max-width: 320px){
+    
+    .thumbnail{
+        width: 100%;
+    }
+    #banner_image{
+        width: 100%;
+    }
+    #banner_content{
+        width: 100%;
+    }
+    .row{
+        width: 100%
+    }
+}
+
+#banner_content{
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+.thumbnail{
+    text-align: center;
+    display: inline-block;
+}
+
+h1{
+    font-variant: normal;
+    font-family: "Times New Roman", Times, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+h4{
+    font-weight: bold;
+} 
+
+h2{
+    font-weight: bold;
+} 
+
+h5{
+    font-weight: bold;
+}
+
+table{
+    display: inline-table;  
+    width: 50%;
+    
+}
+#tab_row{
+    border-top-style: inset;
+    border-top-color: #888;
+    background-color: #f2f2f2;
+}
+
+.row_style{
+    margin-top: 100px;
+    margin-bottom: 200px;   
+}
+
+#cart{
+    margin-top: 100px;
+    margin-bottom: 400px;
+}
+footer{
+    padding: 10px 0;
+    background-color: #101010;
+    color:#9d9d9d;
+    bottom: 20%;
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    font-variant: small-caps;
+    position: inherit;
+}                                                                                    
+
